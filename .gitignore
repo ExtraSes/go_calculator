@@ -1,0 +1,36 @@
+build/bin/
+build/windows/installer/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+old/node_modules/
+
+# Build outputs / dist
+frontend/dist/
+old/dist/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Go artifacts
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Wails/Next cache
+frontend/.next/
+.next/
+
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+
+# IDE
+.vscode/
+.idea/
