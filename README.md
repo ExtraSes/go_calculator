@@ -1,16 +1,17 @@
-# README
+## Калькулятор (Go + Wails + Next.js)
 
-## About
+Простой кроссплатформенный калькулятор: бэкенд на Go (Wails), фронтенд на Next.js/TypeScript.
 
-This is the official Wails Svelte-TS template.
+### Запуск в разработке
+- Установите зависимости фронтенда: `cd frontend && pnpm i`
+- Запустите приложение: из корня `wails dev`
 
-## Live Development
+### Сборка
+- Продакшн-сборка: `wails build`
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+### Требования
+- Go 1.22+
+- Node.js 18+ и pnpm
+- Wails CLI (`go install github.com/wailsapp/wails/v2/cmd/wails@latest`)
 
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+Автор: ExtraSes
